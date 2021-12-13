@@ -1,0 +1,33 @@
+.container1 {
+    border: 10px solid #00bcd4;
+    background-color: black;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: 20% 30% 40%;
+    grid-template-rows: 120px 120px;
+    /* grid-auto-rows: 120px; */
+    row-gap: 30px;
+    column-gap: 10px;
+}
+
+div.item:nth-child(1n) {
+    border: 10px solid purple;
+    font-size: 4rem;
+    color: white;
+}
+
+div.item:nth-child(2n) {
+    border: 10px solid #e1bee7;
+    font-size: 4rem;
+    color: white;
+}
+
+.container2 {
+    border: 10px solid #00bcd4;
+    background-color: black;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: auto auto auto;
+    grid-auto-columns: auto;
+    gap: 30px;
+}

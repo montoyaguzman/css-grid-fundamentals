@@ -18,3 +18,11 @@
 * Column siginifica columna.
 * Una **celda** es la unidad minima de la grilla y se delimita a una posicion especifica.
 * El conjunto de celdas pueden formar **areas** o **tracks**.
+
+## Propiedades del contenedor
+* Display GRID: Es indispensable para que un contenedor se comporte como un GRID.
+* grid-template: Es el atajo de 3 propiedades
+    * grid-template-rows
+    * grid-template-columns
+    * grid-template-areas
+* Gap: Espacio entre los items, existe rows-gap, columns-gap y gap.
